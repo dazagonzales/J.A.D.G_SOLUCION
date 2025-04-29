@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte Técnico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px; /* Ajusta el tamaño de tu logo */
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 2em;
+    }
+    #inicio {
+      background-color: #f0f0f0;
+    }
+    #sobre-mi {
+      background-color: #e0e0e0;
+    }
+    #servicios {
+      background-color: #f9f9f9;
+    }
+    h2 {
+      color: #333;
+    }
+    .servicio {
+      margin: 1em 0;
+      padding: 1em;
+      background-color: #dcdcdc;
+      border-radius: 8px;
+    }
+    form {
+      background-color: #e0e0e0;
+      padding: 2em;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.8em;
+      margin: 0.5em 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Asegúrate de colocar la ruta correcta a tu imagen -->
+    <img src="ruta/a/tu/logo.png" alt="Logo Soporte Técnico">
+    <h1>Bienvenido al Servicio de Soporte Técnico</h1>
+  </header>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido a mi página web. Soy un profesional en soporte técnico para laptops, impresoras y PCs. Aquí podrás conocer más sobre mis servicios y cómo puedo ayudarte a solucionar cualquier problema con tus dispositivos.</p>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>Me llamo [Tu Nombre] y tengo varios años de experiencia en soporte técnico. Mi objetivo es ofrecerte soluciones rápidas y efectivas para que tus dispositivos funcionen como nuevos.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicio">
+      <h3>Soporte Técnico de Laptops</h3>
+      <p>Reparación de pantallas, teclados, puertos, instalación de software, y optimización del sistema.</p>
+    </div>
+    <div class="servicio">
+      <h3>Soporte para Impresoras</h3>
+      <p>Reparación de impresoras, configuración de red, y solución de problemas de impresión.</p>
+    </div>
+    <div class="servicio">
+      <h3>Soporte para PC de Escritorio</h3>
+      <p>Instalación de hardware, eliminación de virus, actualización de componentes y más.</p>
+    </div>
+    <div class="servicio">
+      <h3>Instalación de Programas de Ingeniería</h3>
+      <p>Instalación y configuración de software especializado para ingeniería, como AutoCAD, SolidWorks, MATLAB, entre otros.</p>
+    </div>
+    <div class="servicio">
+      <h3>Instalación de Programas de Oficina</h3>
+      <p>Instalación de suites de oficina como Microsoft Office, LibreOffice, y programas de productividad.</p>
+    </div>
+    <div class="servicio">
+      <h3>Instalación de Juegos</h3>
+      <p>Instalación y configuración de juegos en PC, optimización para un mejor rendimiento.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si necesitas más información o deseas contratar alguno de mis servicios, puedes contactarme a través del siguiente formulario o llamarme al <strong>951188231</strong>:</p>
+    
+    <form action="mailto:yancarlitos_12@hotmail.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+</body>
+</html>
